@@ -9,6 +9,7 @@ class Person
     self.partner = person
     if person.class != Person
       raise PartnerError
+    else
     person.partner = self
   end
 
